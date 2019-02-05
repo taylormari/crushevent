@@ -1,0 +1,111 @@
+html {
+	background: ;
+
+}
+
+body {
+	overflow: hidden;
+
+}
+
+img {
+	height: 100vh;
+	width: 100vw;
+
+	
+}
+
+#cootie {
+	position: absolute;
+  width: 100px;
+  height: 100px;
+  cursor: move;
+  z-index: 100;
+  margin-top: 30%;
+  margin-left: 35%;
+}
+
+#heart1 {
+	position: absolute;
+	width: 30%;
+	height:auto;
+	margin-top: 2%;
+	margin-left: 50%;
+	z-index: -7;
+	
+}
+
+#heart2 {
+	position: absolute;
+	width: 30%;
+	height: auto;
+	margin-top: 2%;
+	margin-left: 1%;
+	z-index: -8;
+}
+
+
+#cloudback {
+	position: relative;
+	z-index: -10;
+
+}
+
+#crushmeet {
+	position: absolute;
+	z-index: -9;
+
+}
+
+.text {
+	position: absolute;
+	font-size: 2em;
+	color: #FF00FF;
+	font-style: italic;
+	margin-left: 10%;
+	margin-top: 25%;
+	background: none;
+
+}
+
+#animate_note {
+	width: 10%;
+	height: auto;
+	position: absolute;
+	background: white;
+	padding: 10px;
+	animation-name: twirlmove;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-timing-function: linear;
+	z-index: 10;
+
+}
+
+#noteimg {
+	width: 50%;
+	height: auto;
+}
+
+#notetext {
+	font-style: italic;
+	color: #FF00FF;
+}
+
+@keyframes twirlmove {
+
+	0% {
+		margin-left: 5%;
+		margin-top: 30%;
+
+	}
+
+	100% {
+		margin-left: 90%;
+		margin-top: 30%;
+
+	}
+
+
+}
